@@ -93,9 +93,9 @@ class App extends Component{
       <User render={(isLoggedIn)=> isLoggedIn ? "Voshwas" : "Guest"}/> */}
       {/* <CounterTwo render={(count, incrementCount)=> <ClickCounterTwo count={count} incrementCount={incrementCount}></ClickCounterTwo>}/>
       <HoverCounterTwo render={(count, incrementCount)=> <HoverCounterTwo count={count} incrementCount={incrementCount}></HoverCounterTwo>}/> */}
-       <UserProvider value="Amin">
+       {/* <UserProvider value="Amin"> */}
        <ComponentC/>
-       </UserProvider>
+       {/* </UserProvider> */}
        
       </div>
     )
