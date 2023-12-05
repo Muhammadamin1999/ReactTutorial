@@ -14,11 +14,15 @@ import './App.css';
 // import IntervalHookCounter from './components/IntervalHookCounter';
 //import DataFetching  from './components/DataFetching';
 import ComponentsC from './components/ComponentsC';
+import CounterOne from './components/CounterOne';
+import CounterTwo from './components/CounterTwo';
+import CounterThree from './components/CounterThree';
+import ClassTimer from './components/ClassTimer';
 
 // eslint-disable-next-line no-undef
-export const UserContext = React.createContext();
-// eslint-disable-next-line no-undef
-export const ChannelContext = React.createContext()
+// export const UserContext = React.createContext();
+// // eslint-disable-next-line no-undef
+// export const ChannelContext = React.createContext()
 function App() {
   return (
     <div className="App">
@@ -34,13 +38,16 @@ function App() {
      {/* <IntervalClassCounter/> */}
      {/* <IntervalHookCounter/> */}
      {/* <DataFetching/> */}
-     <UserContext.Provider value={'Vishwas'}>
+     {/* <UserContext.Provider value={'Vishwas'}>
       <ChannelContext.provider value = {'Codevolution'}>
       <ComponentsC/>
       </ChannelContext.provider>
      
-     </UserContext.Provider>
-
+     </UserContext.Provider> */}
+     {/* <CounterOne/> */}
+     {/* <CounterTwo/> */}
+{/* <CounterThree/> */}
+<ClassTimer/>
     </div>
   );
 }
