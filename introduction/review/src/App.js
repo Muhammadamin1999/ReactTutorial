@@ -29,6 +29,7 @@ class App extends Component {
     <Hello/>
     <Hellow/> */}
     {/* <Counter/> */}
+    <Greet/>
     <Greet name="Hg" heroName="kl"/>
       </div>
     )
