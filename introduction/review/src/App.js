@@ -17,6 +17,11 @@ import Style from './components/Style';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
+import LifecycleA from './components/LifecycleA'
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
 class App extends Component {
   render(){
     return (
@@ -52,7 +57,12 @@ class App extends Component {
     {/* <Style/> */}
     {/* <h1 className='error'>Error</h1>
     <h1 className={styles.success}>Success</h1> */}
-    <Form/>
+    {/* <Form/> */}
+    {/* <LifecycleA/> */}
+    {/* <FragmentDemo/> */}
+    {/* <Table/> */}
+    {/* <PureComp/> */}
+    <ParentComp/>
       </div>
     )
   }
