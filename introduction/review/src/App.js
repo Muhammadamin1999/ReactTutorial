@@ -35,6 +35,8 @@ import HoverCounterTwo from './components/HoverCounterTwo';
 import User from './components/User';
 import ComponentC from './components/ComponentC'
 import {UserProvider} from './components/userContext'
+import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 class App extends Component {
   render(){
     return (
@@ -96,7 +98,8 @@ class App extends Component {
      {/* <UserProvider value='Wishwas'>
      <ComponentC/>
      </UserProvider> */}
-     
+     {/* <PostList/> */}
+     <PostForm/>
       </div>
     )
   }
