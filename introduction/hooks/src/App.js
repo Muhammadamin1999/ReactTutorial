@@ -11,6 +11,9 @@ import ClassMouse from './components/ClassMouse';
 import HookMouse from './components/HookMouse';
 import HookMouse1 from './components/HookMouse1';
 import MouseContainer from './components/MouseContainer';
+import InteIntervalClassCounter from './components/InteIntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
+import DataFetching from './components/DataFetching';
 function App() {
   return (
     <div className="App">
@@ -24,7 +27,10 @@ function App() {
      {/* <ClassMouse/> */}
      {/* <HookMouse/> */}
      {/* <HookMouse1/> */}
-     <MouseContainer/>
+     {/* <MouseContainer/> */}
+     {/* <InteIntervalClassCounter/> */}
+     {/* <IntervalHookCounter/> */}
+     <DataFetching/>
 
     </div>
   );
