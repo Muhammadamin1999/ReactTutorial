@@ -34,12 +34,12 @@ function App() {
      {/* <InteIntervalClassCounter/> */}
      {/* <IntervalHookCounter/> */}
      {/* <DataFetching/> */}
-     <UserContext.Provider value={'Wishwas'}>
+     {/* <UserContext.Provider value={'Wishwas'}>
       <ChannelContext.Provider value={'Code evolution'}>
       <ComponentC/>
       </ChannelContext.Provider>
     
-     </UserContext.Provider>
+     </UserContext.Provider> */}
      
 
     </div>
