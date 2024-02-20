@@ -7,6 +7,7 @@ import CounterM from './components/CounterM';
 import FocusInput from './components/FocusInput';
 import DocTitleOne from './components/DocTitleOne';
 import DocTitleTwo from './components/DocTitleTwo';
+import UserForm from './hooks/UserForm';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
    {/* <ParentComponent/> */}
    {/* <CounterM/> */}
    {/* <FocusInput/> */}
-   <DocTitleOne/>
-   <DocTitleTwo/>
+   {/* <DocTitleOne/>
+   <DocTitleTwo/> */}
+   <UserForm/>
     </div>
   );
 }
