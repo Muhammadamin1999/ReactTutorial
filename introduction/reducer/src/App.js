@@ -5,6 +5,8 @@ import CounterTwo from './components/CounterTwo';
 import ParentComponent from './components/ParentComponent';
 import CounterM from './components/CounterM';
 import FocusInput from './components/FocusInput';
+import DocTitleOne from './components/DocTitleOne';
+import DocTitleTwo from './components/DocTitleTwo';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
    {/* <CounterTwo/> */}
    {/* <ParentComponent/> */}
    {/* <CounterM/> */}
-   <FocusInput/>
+   {/* <FocusInput/> */}
+   <DocTitleOne/>
+   <DocTitleTwo/>
     </div>
   );
 }
