@@ -4,6 +4,7 @@ import CounterOne from './components/CounterOne';
 import CounterTwo from './components/CounterTwo';
 import ParentComponent from './components/ParentComponent';
 import CounterM from './components/CounterM';
+import FocusInput from './components/FocusInput';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
    {/* <CounterOne/> */}
    {/* <CounterTwo/> */}
    {/* <ParentComponent/> */}
-   <CounterM/>
+   {/* <CounterM/> */}
+   <FocusInput/>
     </div>
   );
 }
