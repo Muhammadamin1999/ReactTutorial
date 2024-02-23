@@ -8,7 +8,9 @@ import { Parent } from './components/Parent Child/Parent';
 import { ParentOne } from './components/Optimization/ParentOne';
 import { ChildOne } from './components/Optimization/ChildOne';
 import { GrandParent } from './components/Optimization/GrandParent';
-
+import { ChildTwo } from './components/Optimization/ChildTwo';
+import { ParentTwo } from './components/Optimization/ParentTwo';
+import {ContextParent} from './components/Context/ContextParent'
 function App() {
   return (
     <div className="App">
@@ -20,7 +22,11 @@ function App() {
      {/* <ParentOne>
       <ChildOne/>
      </ParentOne> */}
-     <GrandParent/>
+     {/* <GrandParent/> */}
+     {/* <ParentTwo>
+      
+     </ParentTwo> */}
+     <ContextParent/>
     </div>
   );
 }
