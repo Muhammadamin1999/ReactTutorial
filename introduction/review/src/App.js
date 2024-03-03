@@ -99,7 +99,7 @@ class App extends Component {
      <ComponentC/>
      </UserProvider> */}
      {/* <PostList/> */}
-     <PostForm/>
+     {/* <PostForm/> */}
       </div>
     )
   }
